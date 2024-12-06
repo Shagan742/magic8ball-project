@@ -1,11 +1,20 @@
+body {
+    background-image:linear-gradient(purple 10%,white 60%,purple 30%);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
 #response-img {
     height:100px;
     width:auto;
     position:relative;
+    margin: 0 auto;
 }
 
 #ball-circle {
-    background-color:black;
+    background-color:rgb(31, 31, 31);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
     display:inline-block;
     border-radius:100000000000000000000000000000000000px;
     position:relative;
@@ -14,20 +23,11 @@
     z-index:-2;
 }
 
-#ball-inner-circle {
-    background-color:rgb(37, 37, 37);
-    display:inline-block;
-    border-radius:100000000000000000000000000000000000px;
-    position:relative;
-    width:200px;
-    height:200px;
-    z-index:-1;
-}
 
 #response-text {
     color:white;
     font-weight:bold;
-    font-size:20px;
+    font-size:15px;
 }
 
 html {

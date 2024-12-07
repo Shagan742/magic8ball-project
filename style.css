@@ -12,33 +12,30 @@ body {
     margin: 0 auto;
 }
 
-#ball-circle {
-    background-color:rgb(31, 31, 31);
-    display:inline-block;
-    border-radius:100000000000000000000000000000000000px;
-    position:relative;
-    width:500px;
-    height:500px;
-    z-index:-2;
+.ball {
+    background-image:url(imgs/ball.png);
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    margin:0 auto;
 }
 
-#ball-inner {
-    background-color:black;
-    width:300px;
-    height:300px;
-    border-radius:100%;
-    position:relative;
-    display:block;
-    z-index:0;
+h1 {
+    color:white;
 }
-
+#greeting {
+    color:white;
+    font-size:30px;
+}
 
 #response-text {
     color:white;
     font-weight:bold;
     font-size:15px;
+    background-color:black;
 }
 
 html {
     overflow-x:hidden;
+    overflow-y:hidden;
 }

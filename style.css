@@ -1,3 +1,9 @@
+/*main things*/
+html {
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
 body {
     background-image:url(imgs/background.jpg);
     background-repeat:no-repeat;
@@ -5,6 +11,7 @@ body {
     background-size:cover;
 }
 
+/*the ball stuff*/
 #response-img {
     height:100px;
     width:auto;
@@ -20,6 +27,14 @@ body {
     margin:0 auto;
 }
 
+#response-text {
+    color:white;
+    font-weight:bold;
+    font-size:15px;
+    background-color:black;
+}
+
+/*title*/
 h1 {
     color:white;
 }
@@ -28,14 +43,5 @@ h1 {
     font-size:30px;
 }
 
-#response-text {
-    color:white;
-    font-weight:bold;
-    font-size:15px;
-    background-color:black;
-}
 
-html {
-    overflow-x:hidden;
-    overflow-y:hidden;
-}
+
